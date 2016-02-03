@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="contaxPrimaryBackgroundColor">#2681d1</color>
+    <color name="contaxSecondaryBackgroundColor">#239DF2</color>
+    <color name="contaxBackgroundColor">#fff</color>
+    <color name="contaxPrimaryTextColor">#fff</color>
+    <color name="contaxSecondaryTextColor">#000</color>
+    <color name="contaxAlertButtonColorPressed">#e84e40</color>
+    <color name="contaxAlertButtonColor">#dd191d</color>
+    <color name="contaxAlertButtonColorDisabled">#aaa</color>
+</resources>

@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Base" parent="AppTheme">
+        <item name="colorPrimary">@color/contaxSecondaryBackgroundColor</item>
+        <item name="colorPrimaryDark">@color/contaxPrimaryBackgroundColor</item>
+        <item name="colorAccent">@color/contaxBackgroundColor</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/contaxBackgroundColor</item>
+    </style>
+
+    <style name="Theme.Contax" parent="Theme.Base" />
+
+    <style name="ActionBarThemeOverlay" parent="">
+        <item name="android:textColorPrimary">@color/contaxPrimaryTextColor</item>
+        <item name="colorControlHighlight">@color/contaxBackgroundColor</item>
+        <item name="android:actionMenuTextColor">@color/contaxPrimaryTextColor</item>
+        <item name="android:textColorSecondary">@color/contaxPrimaryTextColor</item>
+        <item name="android:background">@color/contaxSecondaryBackgroundColor</item>
+    </style>
+
+    <style name="ActionBar.TitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/contaxPrimaryTextColor</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="ActionBarPopupThemeOverlay" parent=""></style>
+
+</resources>

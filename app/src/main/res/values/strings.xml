@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Main Activity -->
+    <string name="app_name">Contax</string>
+    <string name="noDataText">No contacts available. Tap on the + icon to add a new contact.</string>
+    <string name="menuAddTitle">Add</string>
+
+
+    <!-- ContactActivity Activity -->
+    <string name="menuDoneTitle">Done</string>
+    <string name="newContact">New Contact</string>
+    <string name="editContact">Edit Contact</string>
+    <string name="firstNameFieldHint">First Name (required)</string>
+    <string name="lastNameFieldHint">Last Name (required)</string>
+    <string name="dateOfBirthFieldHint">Date of Birth</string>
+    <string name="zipcodeFieldHint">Zipcode</string>
+    <string name="deleteContact">Delete Contact</string>
+    <string name="deleteContactConfirmation">Are you sure you want to delete this contact?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>
